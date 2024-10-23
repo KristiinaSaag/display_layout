@@ -1,0 +1,29 @@
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    grid-column: 1 / -1;
+    margin-top: 10px;
+  }
+  
+  .flexBox {
+    background-color: #fcd2d2;
+    padding: 20px;
+    margin: 30px;
+    flex: 1 1 30%;
+    min-width: 20vw;
+    max-width: 30%;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  .flexBox:hover {
+    background-color: #eba4a4;
+    transform: scale(110%);
+    transform: rotateZ(360deg);
+    transition-duration: 800ms;
+  }

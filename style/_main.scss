@@ -1,0 +1,31 @@
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  
+  article {
+    padding: 1rem;
+  }
+  
+  aside {
+    background-color: #eba4a4;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  aside li {
+    list-style-type: none;
+    padding: 5px;
+  }
+
+  #box {
+    width: 200px;
+    color: #ffffff;
+    background-color: #fcd2d2;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 3em;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
